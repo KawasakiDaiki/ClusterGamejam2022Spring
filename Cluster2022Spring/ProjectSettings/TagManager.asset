@@ -14,27 +14,27 @@ TagManager:
   - 
   - 
   - 
+  - FIRSTPERSON_ONLY_LAYER
+  - THIRDPERSON_ONLY_LAYER
+  - RidingItem
   - 
   - 
+  - InteractableItem
+  - OtherAvatar
+  - OwnAvatar
+  - 
+  - GrabbingItem
+  - VenueLayer0
+  - VenueLayer1
+  - PostProcessing
+  - PerformerOnly
+  - Performer
+  - Audience
   - 
   - 
+  - GrabbableItem
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - VenueLayer2
   - 
   - 
   m_SortingLayers:
