@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 2773288639320383149}
   - component: {fileID: 512135870504571549}
   - component: {fileID: 9116435075752158133}
+  - component: {fileID: 8236545244396613603}
+  - component: {fileID: 8390262361792568048}
   m_Layer: 14
   m_Name: penguin_Item
   m_TagString: Untagged
@@ -206,6 +208,46 @@ MonoBehaviour:
               operatorExpression:
                 operator: 0
                 operands: []
+--- !u!114 &8236545244396613603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2773288639320383122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 2773288639320383151}
+  key:
+    target: 2
+    key: blast
+  itemTemplate: {fileID: 1166126263726452580, guid: c987c77e428e1e34cbc55684ab4f1ebd,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 2773288639320383146}
+--- !u!114 &8390262361792568048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2773288639320383122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e9a020b2ef4fdfa5504a049cf38d87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movableItem: {fileID: 2773288639320383148}
+  key:
+    target: 2
+    key: blast
+  space: {fileID: 2773288639320383146}
+  force: {x: 0, y: 20, z: 0}
+  ignoreMass: 1
 --- !u!1001 &9116435076907248254
 PrefabInstance:
   m_ObjectHideFlags: 0
